@@ -36,7 +36,7 @@ Pré-requisitos: Docker e Docker Compose
 git clone https://github.com/Kaue-Silva/Site_Lembretes
 
 # entrar na pasta
-cd Site-Lembretes
+cd Site_Lembretes
 
 # iniciar com docker-compose
 docker-compose up -d
