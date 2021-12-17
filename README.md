@@ -16,8 +16,8 @@ ou seja toda alteração nos arquivos com o container em execução sera aplicad
 
 Layout construido com auxilio do sistema de templates do Django e Bootstrap.
 
-![lembretes listagens](https://github.com/Kaue-Silva/Site-Lembretes/blob/main/assets/Tela%20inicial.PNG)
-![lembretes adição](https://github.com/Kaue-Silva/Site-Lembretes/blob/main/assets/Tela%20de%20adi%C3%A7%C3%A3o%20de%20lembretes.PNG)
+![lembretes listagens](https://github.com/Kaue-Silva/Site_Lembretes/blob/main/assets/Tela%20inicial.PNG)
+![lembretes adição](https://github.com/Kaue-Silva/Site_Lembretes/blob/main/assets/Tela%20de%20adi%C3%A7%C3%A3o%20de%20lembretes.PNG)
 
 ## Tecnologias Utilizadas
 ## Back end
