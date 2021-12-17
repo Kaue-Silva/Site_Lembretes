@@ -1,5 +1,5 @@
 # Site de Lembretes
-[![NPM](https://img.shields.io/apm/l/react)](https://github.com/Kaue-Silva/Site-Lembretes/blob/main/LICENSE)
+[![NPM](https://img.shields.io/apm/l/react)](https://github.com/Kaue-Silva/Site_Lembretes/blob/main/LICENSE)
 
 ## Sobre o Projeto
 
