@@ -33,7 +33,7 @@ Layout construido com auxilio do sistema de templates do Django e Bootstrap.
 Pré-requisitos: Docker e Docker Compose
 ``` bash
 # clonar o repositorio
-git clone https://github.com/Kaue-Silva/Site-Lembretes
+git clone https://github.com/Kaue-Silva/Site_Lembretes
 
 # entrar na pasta
 cd Site-Lembretes
