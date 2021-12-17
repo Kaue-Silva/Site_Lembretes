@@ -1,0 +1,15 @@
+{% extends 'model-page.html' %}
+{% load bootstrap %}
+
+{% block comum-page %} 
+{% endblock %}
+
+{% block title %} Sign - up {% endblock %}
+
+
+{% block main %} 
+    <form method="post"> {% csrf_token %}
+        {{ form|bootstrap }}
+        <input type="submit" value="Cadastrar" class="btn btn-primary">
+    </form>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'model-page.html' %}
+    
+{% block title %} Lembretes {% endblock %}
+
+
+{% block main %}
+    {% for lembrete in lembretes %}
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item">Titulo: {{ lembrete.titulo }}
+                    <a href="{% url 'update' lembrete.id %}" class="badge rounded-pill bg-info text-dark" >Editar</a> /
+                    <a href="{% url 'delete' lembrete.id %}" class="badge rounded-pill bg-warning text-dark">Delete</a>
+                </li>
+                <li class="list-group-item">Descrição: {{ lembrete.descricao }}</li>
+                <li class="list-group-item">Data e hora: {{ lembrete.data_hora }}</li>
+                <li class="list-group-item">Author: {{ lembrete.author }}</li>
+            </ul>           
+        </div>
+        <br>
+    {% endfor %}
+    <br>
+    <a href="{% url 'novo_lembrete' %}" class="btn btn-success">Novo Lembrete</a>
+    
+{% endblock %}
+

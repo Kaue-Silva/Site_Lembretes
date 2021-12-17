@@ -1,0 +1,14 @@
+{% extends 'model-page.html' %}
+{% load bootstrap %}
+
+{% block title %}
+    Novo Lembrete
+{% endblock %}
+
+{% block main %}
+    <form method="post"> {% csrf_token %}
+        {{ form|bootstrap }}
+        <br>
+        <input type="submit" value="Salvar" class="btn btn-primary">
+    </form>
+{% endblock %}

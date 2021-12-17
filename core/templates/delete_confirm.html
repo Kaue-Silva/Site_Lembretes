@@ -1,0 +1,12 @@
+{% extends 'model-page.html' %}
+
+{% block title %}
+    Confirma Delete
+{% endblock %}
+
+{% block main %}
+    <form method="post"> {% csrf_token %}
+        <h1>Tem certeza de que deseja exluir {{ lembrete.titulo }}?</h1>
+        <input type="submit" value="Confirma" class="btn btn-danger">
+    </form>
+{% endblock %}
